@@ -31,7 +31,7 @@ function App(props) {
     <>
    
    <h3>Counter : {counter} </h3> 
-   <button onClick={addValue}> Increase</button> <button onClick={decrease}>  Decrease</button>
+   <button onClick={()=>setCounter(counter+1)}> Increase</button> <button onClick={decrease}>  Decrease</button>
     <Card userName="Sumit" btnText="Click Me"/>
     <Card />
     
